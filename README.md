@@ -2,7 +2,7 @@
 
 ![Testler %100 başarı oranı ile geçmiştir](images/success.png)
 
-Not: Projeyi daha sürdürülebilir kurgulayabilirdim. Örneğin selectorleri ayrı klasörler de toplayabilir, tüm kullanacağım base fonksiyonları utils/action ve /check altında tanımlayıp(Örn: click, check, getText) kendi yönetilebilir fonksiyonlarımı oluşturabilirdim. Fakat mevcut işimde teslimat haftasında olduğumuz için çok kısa vakit ayırabildim elimden gelen en iyisini yapmaya çalıştım. Ayrıca iki projeyi de cursor destekli yazdığımı da belirtmek istiyorum.
+Not: Projeyi daha sürdürülebilir kurgulayabilirdim. Örneğin selectorleri ayrı klasörlerde toplayabilir, tüm kullanacağım base fonksiyonları utils/action ve /check altında tanımlayıp(Örn: click, check, getText) kendi yönetilebilir fonksiyonlarımı oluşturabilirdim. Fakat mevcut işimde teslimat haftasında olduğumuz için çok kısa vakit ayırabildim elimden gelen en iyisini yapmaya çalıştım. Ayrıca iki projeyi de cursor destekli yazdığımı da belirtmek istiyorum.
 
 Bu proje, Cucumber BDD ve Selenium WebDriver kullanılarak Java'da geliştirilmiş bir e-ticaret otomasyonudur. Proje, paralel ve cross-browser testleri destekler.
 
