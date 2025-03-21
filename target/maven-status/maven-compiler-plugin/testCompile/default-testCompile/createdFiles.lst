@@ -1,0 +1,8 @@
+com\ecommerce\automation\runners\FirefoxTestRunner.class
+com\ecommerce\automation\runners\FirefoxIT.class
+com\ecommerce\automation\runners\TestRunner.class
+com\ecommerce\automation\runners\ParallelTestRunner.class
+com\ecommerce\automation\stepdefinitions\HepsiburadaSteps.class
+com\ecommerce\automation\runners\ChromeIT.class
+com\ecommerce\automation\steps\Hooks.class
+com\ecommerce\automation\runners\ChromeTestRunner.class

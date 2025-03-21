@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.ecommerce.automation.runners.FirefoxTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.685 s <<< FAILURE! -- in com.ecommerce.automation.runners.FirefoxTestRunner
+Hepsiburada Shopping.User can filter and add most expensive Apple tablet to cart -- Time elapsed: 6.123 s <<< FAILURE!
+java.lang.AssertionError: Ürün sepete eklenemedi
+	at com.ecommerce.automation.stepdefinitions.HepsiburadaSteps.the_user_should_see_product_added_to_cart_message(HepsiburadaSteps.java:66)
+	at ✽.the user should see product added to cart message(file:///C:/Users/oguza/OneDrive/Masaüstü/dias_otomasyon_OguzhanCokyilmaz/src/test/resources/features/HepsiburadaShopping.feature:15)
+

@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Rule Name: Onaylananları PRD'ye Ekle
+
+Trigger:
+- Kullanıcı, senin ürettiğin bir kodu onaylayıp "tamam süper" cümlesiyle başlayan bir komut yazdığında tetiklenecek.
+
+Action:
+1. `prd.md` dosyasını aç.
+2. Dosyada `## Yapıldı` başlığını bul.
+3. Kullanıcının onayladığı çıktının özetini (örneğin: "kullanıcı arayüz özelleştirildi") kontrol et.
+4. Eğer bu çıktı daha önce eklenmemişse, `## Yapıldı` listesine en alta ekle.
+5. Daha önce eklenmişse, bir şey yapma.
+
+Context:
+- Sadece kullanıcı cümlesine "tamam süper" ile başladığında çalışır.
+- Bu rule, projeye yeni bir şey eklendiğinde otomatik olarak `prd.md` dosyasını güncellemek içindir.
